@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ .circle{
+     height: 900px;
+     width: 980px;
+     background-color: #649549;
+     border-radius:50%;
+     position: absolute;
+     right: 0;
+     top: -500px;
+     overflow: hidden;
+     
+
+ }
+ .small-circle
+ {
+    height: 450px;
+    width: 450px; 
+    position:absolute;
+    z-index: 3;
+    border-radius: 50%;
+    border: 2px dashed;
+    right: 250px;
+    bottom: -200px;
+
+
+
+   
+    
+    
+}
+.text
+{
+ position: absolute;
+ margin-top: 300px;
+}
+.text2{
+    position:absolute;
+    margin-top : 300px;
+    right: 5px;
+    font-size: 25px;
+
+}
+.text3{
+    position:absolute;
+    margin-top : 50px;
+   right : 250px;
+    size: -500h;
+    background-color: white;
+}
+.text4 {
+    position:absolute;
+    margin-top :-450px;
+    right: 250px;
+    size: -500h;
+    font-size: 30px;
+    background-color: #649549;
+
+}
+.text5{
+
+position:absolute;
+right: 250px;
+size: -500h;
+font-size: 30px;
+background-color: wheat;
+bottom: auto;
+}
+
+.juice{
+
+    background-color: #649549;
+
+
+    
+}
+.juice2{
+    position:absolute;
+    margin-top: -250px;
+    
+
+    left: 100px;
+   
+
+}
+
+ .navbar{
+     display: flex;
+   justify-content: space-around;
+
+
+ }
+ nav {
+     position: absolute;
+     z-index: 1;  
+
+ }
+ 
+
+ .container{
+     overflow: hidden;
+     background-color: darkgray;
+     height: 100vh;
+     padding-right: 10%;
+     font-size: 25px;
+     
+ }
+ .image{
+     position: absolute;
+     right: 400px;
+     top: 300px;
+     
+ }
+ .image img
+ {
+
+     height: 40;
+     width: 40;
+ }
+ 
+     
+ }
+ ul{
+    float: left ;
+    margin-top: 25px;
+  } 
+  ul li {
+    display:inline-block
+  }
+  ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+
+  .eat{
+      margin-top: 400px;
+
+  }
+  .button {
+    border-radius: 2px;
+}
+
+.button a {
+    padding: 8px 12px;
+    border: 1px solid #ED2939;
+    border-radius: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #ffffff; 
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;  
+}
+  
